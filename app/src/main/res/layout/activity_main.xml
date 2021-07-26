@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="30dp"
+    android:background="@drawable/bg">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="247dp"
+        android:layout_height="218dp"
+        android:layout_gravity="center"
+        android:layout_weight="0.3"
+        android:contentDescription="Logo"
+        android:gravity="center"
+        android:src="@mipmap/ic_launcher"
+        android:text="Who wants to be a millionaire?"
+        android:textColor="#111C59"
+        android:textSize="50sp" />
+
+    <Button
+        android:text="Play"
+        android:id="@+id/butPlay"
+        android:onClick="play"
+        style="@style/buttonColor"
+        android:background="@drawable/buttonshape"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.175" />
+
+    <Button
+        android:text="Privacy Policy"
+        android:id="@+id/butScores"
+        style="@style/buttonColor"
+        android:onClick="policy"
+        android:background="@drawable/buttonshape"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.175" />
+
+    <Button
+        android:text="About"
+        android:id="@+id/butAbout"
+        style="@style/buttonColor"
+        android:background="@drawable/buttonshape"
+        android:layout_width="fill_parent"
+        android:onClick="about"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.175" />
+
+</LinearLayout>

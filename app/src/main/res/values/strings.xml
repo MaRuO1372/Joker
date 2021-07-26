@@ -1,0 +1,231 @@
+<resources>
+    <string name="app_name">Sunken Treasure</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_title_social_recommendations">Enable social recommendations</string>
+    <string name="pref_description_social_recommendations">Recommendations for people to contact
+        based on your message history
+    </string>
+
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_default_display_name">John Smith</string>
+
+    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
+    <string-array name="pref_example_list_titles">
+        <item>Always</item>
+        <item>When possible</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync">Data &amp; sync</string>
+
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+
+    <string-array name="list_preference_entries">
+        <item>Entry 1</item>
+        <item>Entry 2</item>
+        <item>Entry 3</item>
+    </string-array>
+
+    <string-array name="list_preference_entry_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="multi_select_list_preference_default_value" />
+
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">Notifications</string>
+
+    <string name="pref_title_new_message_notifications">New message notifications</string>
+
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <string name="pref_title_vibrate">Vibrate</string>
+
+    <!-- Score Pop up String -->
+    <string name="score_pop_score">You got %1$d right out of %2$d</string>
+    <string name="shark_points">asd</string>
+    <string name="below_average_math_skill">Your results show below average math skills. Keep practicing!</string>
+    <string name="average_math_skill">Your results show average math skills.</string>
+    <string name="above_average_math_skill">Your results show above average math skills.</string>
+    <string name="exceptional_math_skill">Your results show exceptional math skills.</string>
+    <string name="number_too_low">Answer more than 20 questions to calibrate skill level. Try again.</string>
+    <string name="number_too_low_30">Answer more than 30 questions to calibrate skill level. Try again.</string>
+    <string name="number_too_low_10">Answer more than 10 questions to calibrate skill level. Try again.</string>
+    <string name="score_too_low">Score too low. Try again to calibrate skill level.</string>
+    <string name="afk_text">Hey ya there buddy?</string>
+
+    <!--User feedback strings for Time Trials-->
+    <string name="default_time_trials">GO!</string>
+    <string name="good_job">GOOD JOB!</string>
+    <string name="amazing">AMAZING!</string>
+    <string name="fantastic">FANTASTIC!</string>
+    <string name="damn">DAMN!</string>
+    <string name="genius">GENIUS!</string>
+    <string name="sweet">SWEET!</string>
+    <string name="crazy">WOW!</string>
+    <string name="keep">NICE!</string>
+    <string name="unbelievable">NICE!</string>
+    <string name="brilliant">BRILLIANT!</string>
+    <string name="surprised">O_O</string>
+    <string name="bananas">BANANAS!</string>
+    <string name="on_a_roll">YOU\'RE ON A ROLL!</string>
+    <string name="ohno">Oh no!</string>
+    <string name="next">NEXT!</string>
+    <string name="sad">:(</string>
+
+    <!--score-->
+    <string name="score">SCORE: %1$d</string>
+    <string name="title_activity_time_trials_loading_screen">TimeTrialsLoadingScreen</string>
+
+    <!--Quick Maths Loading Screen-->
+    <string name="color">Hint: Keep an eye on the background color. It indicates how much time you have remaining.</string>
+    <string name="panic">Suggestion: Don\'t panic when you see the color change. You still have about 15 seconds left.</string>
+    <string name="wrongs">Too many mistakes? What\'s stopping you from starting over? Quick maths is always only 30 seconds long.</string>
+    <!--Time trials loading screen -->
+    <string name="time_resets">Hint: Time resets every time you answer correctly</string>
+    <string name="difficulty">Hint: Difficulty varies from question to question</string>
+    <string name="improve">Hint: Reduce your time taken to solve by only calculating the last digits</string>
+    <string name="friends">Idea: Compare results with your friends. See where you stand!</string>
+
+    <!--advanced loading screen-->
+    <string name="notime">Hint: Time is not your enemy in Advanced Shark</string>
+    <!--loading screen-->
+    <string name="loading_screen_timer">%1$d</string>
+
+    <!--timer-->
+    <string name="time_left_five">10s</string>
+    <string name="time_left">%1$ds</string>
+    <string name="time_left_ten_less">0%1$ds</string>
+    <string name="ten">TEN</string>
+    <string name="nine">NINE</string>
+    <string name="eight">EIGHT</string>
+    <string name="seven">SEVEN</string>
+    <string name="six">SIX</string>
+    <string name="five">FIVE</string>
+    <string name="four">FOUR</string>
+    <string name="three">THREE</string>
+    <string name="two">TWO</string>
+    <string name="one">ONE</string>
+    <string name="zero">zero</string>
+
+    <!--quickmath timer-->
+    <string name="timer_quick_math">Time Left: %1$ds</string>
+    <string name="timer_quick_math_ten_less">Time Left: 0%1$ds</string>
+    <string name="timer_disabled">Timer Disabled</string>
+    <string name="taponq">DISABLED</string>
+    <!--advanced-->
+    <string name="square">%1$d\u00B2</string>
+    <string name="cube">%1$d\u00B3</string>
+    <string name="box">%1$d</string>
+    <string name="sqrt">\u221A%1$d</string>
+    <string name="cbrt">\u221B%1$d</string>
+    <string name="zero_score">0 of 0</string>
+    <string name="advanced_score">%1$d of %2$d</string>
+    <string name="triple_sum">%1$d + %2$d + %3$d</string>
+    <string name="triple_sum_multiply">(%1$d + %2$d) x %3$d</string>
+    <string name="triple_sub_multiply">(%1$d - %2$d) x %3$d</string>
+    <string name="triple_sum_div">(%1$d + %2$d) / %3$d</string>
+    <string name="triple_sub_div">(%1$d - %2$d) / %3$d</string>
+    <string name="triple_sub">%1$d - %2$d - %3$d</string>
+    <string name="go">GO!</string>
+
+    <!--quick math-->
+    <string name="sum">%1$d + %2$d = %3$d</string>
+    <string name="sub">%1$d - %2$d = %3$d</string>
+    <string name="mult">%1$d x %2$d = %3$d</string>
+    <string name="div">%1$d / %2$d = %3$d</string>
+
+    <!--quick math score pop up text-->
+    <string name="hey_there_genius">"Hello there genius!"</string>
+    <string name="are_you_even">You can do better!</string>
+    <string name="need_more_practice">Need more practice!</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="testAd">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="appinfobutton">appinfoButton</string>
+    <string name="challenge_your_math_skills">Challenge your math skills</string>
+
+    <string name="settingsbutton">settingsButton</string>
+    <string name="what_type_of_shark_are_you_today">What type of shark are you today?</string>
+    <string name="advanced_shark">Advanced Shark</string>
+    <string name="time_trials_shark">Time Trials Shark</string>
+    <string name="high_score">High Scores</string>
+
+    <!--ads-->
+    <string name="quickMathad">ca-app-pub-3697147059223741/1539252155</string>
+    <string name="timeTrialsAd">ca-app-pub-3697147059223741/5392405677</string>
+    <string name="mainMenuad">ca-app-pub-3697147059223741/5739179592</string>
+    <string name="advancedAd">ca-app-pub-3697147059223741/5707390002</string>
+    <string name="scoresAd">ca-app-pub-3697147059223741/2090227205</string>
+    <string name="scoredHowAd">ca-app-pub-3697147059223741/2435225026</string>
+
+    <!--Error-->
+    <string name="something">Sorry something went wrong. Couldn\'t calibrate skill level.</string>
+
+
+    <!--What does kids mode do-->
+    <string name="kidspref">Kids mode tones down the complexity of Quick maths questions. Other modes are coming soon.</string>
+    <string name="title_activity_scores">Scores</string>
+
+    <!--Settings texts-->
+    <string name="flashing_text">Useful for good awareness. Should be disabled if you have history of epilepsy.</string>
+
+    <!--high score page-->
+    <string name="highscore">HIGH SCORES</string>
+    <string name="quickMathHighScore">Quick math stats</string>
+    <string name="timeTrialsHighScore">TimeTrials Stats</string>
+    <string name="advancedHighScore">Advanced Stats</string>
+    <string name="qScore">Highest: %1$d of %2$d</string>
+    <string name="aScore">Highest: %1$d of %2$d</string>
+    <string name="timesPlayed">Times played: %1$d</string>
+    <string name="tScore">Highest: %1$d</string>
+    <string name="timeTaken">Time taken: %1$d seconds</string>
+    <string name="aTimeTaken">Time taken: %1$d seconds</string>
+    <string name="learnhowwe"><u>Learn how we score you</u></string>
+
+    <!--scoredhow strings-->
+    <string name="quickmath">Quick Math</string>
+    <string name="timetrials">Timetrials</string>
+    <string name="advanced">Advanced</string>
+    <string name="quickmathrules">You\'re scored based on the difference between quantity, answers correct and wrong. You\'re not scored when: any type of questions are disabled, timer is disabled or kids mode is enabled.</string>
+    <string name="timetrialsrules">Timetrials scoring is based on the how many you got right and within what time. The elo is calculated by dividing how much you scored by how much time you took (in seconds). Same rules apply here.
+    All types of questions need to remain enabled, timer enabled and kids mode disabled.</string>
+    <string name="advancederules">Advanced is a mixture of Quick math and Timetrials. You are scored based off of the difference between total answered, total correct and how much time you took to get there. A score will not be counted as the new high score if either of the validations are not true.</string>
+    <string name="tap_to_back">Tap to back</string>
+
+</resources>

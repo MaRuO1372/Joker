@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:title="Game settings">
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="dark_mode_switch"
+            android:title="Dark Mode" />
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="kids_mode_switch"
+            android:title="Kids Mode"
+            android:summary="Kids mode tones down the complexity of Quick maths questions. Other modes are coming soon."/>
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="mute_switch"
+            android:title="Mute" />
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="flashing_text"
+            android:title="Flashing text"
+            android:summary="Useful for good awareness. Should be disabled if you have history of epilepsy."/>
+    </PreferenceCategory>
+</PreferenceScreen>
